@@ -24,34 +24,36 @@ Extract questions and recommendations from the data to determine which factors c
 1. What is a reasonable budget and profit margin for a movie?
     - The average net profit for the top 25 movies is over 1.2 billion
     - The average budget is over 196 million
-(image)
+![Top 25 Movies](Images/Question1_top25movies.png)
     - Overall picture, budget has a .61 correlation with net profit
     - It seems that the higher the budget, the higher the net profit
-(image)
+![Budget Profit Correlation](Images/Question1_budget_vs_netprofit.png)
     - There is less noticable correlation when looking at budget ranges in 100 millions
     - The correlation is completely different for each budget range
     - There are several movies falling into a negative profit range
-(image)
+![Budget Ranges](Images/Question1_mediannetprof_budgetrange.png)
     - It seems that the higher the budget, the higher the deficit for negative net profit movies
-(image)
+![Unprofitable Movies](Images/Question1_unprof_budget_netprof.png)
 Answer to Question 1: Determining a budget based on correlation with net profit does not work. In reality, we can get an idea of average budget amounts of other movies, but we can only determine budget based on calculating all potential expenses. What we can determine is a profit margin goal. Based on the median profit margin for all profitable movies, I recommend a profit margin goal of at least 67%. Based on the top 25 movies, we can then create a stretch goal for profit margin at 86%.
-(image)
+![Profit Margin](Images/Question1_profitmargin.png)
 
 2. Who are the top competitors?
     - By amount of movies made, Universal, Fox, and Warner Bros. are top 3 with over 100 movies made.
-(image)
+![Top Studio Movies Made](Images/Question2_Top25Studios_MoviesMade.png)
     - Dreamworks, Buena Vista, Universal, Fox, Warner Bros, and Paramount have the highest net profit all over 1.5 billion
-(image)
+![Top Studio Net Profit](Images/Question2_Top25Studios_NetProfit.png)
 Answer to Question 2: I would determine top competitors based on net profit alone, which would be Dreamworks, Buena Vista, Universal, Fox, Warner Bros. and Paramount.
+
 3. Which director/s should be considered to hire?
     - Looking at director experience is necessary as directors with 4 or more movies almost always have a positive net profit.
-(image)
+![Movies Directed](Images/Question3_netprof_vs_moviesdirected.png)
 Answer to Question 3: I would recommend directors with 4 or more movies and the highest net profit overall. Joss Whedon, Christopher Nolan, Michael Bay, and Jon Favreau are the top 4 with over 500 million in net profit.
-(image)
+![Top Director Net Profit](Images/Question3_Top25Directors.png)
+
 4. Which genres have the highest net profit?
     - Drama is the most popular genre at over 1400 movies, almost double the amount of Comedy
     - Animation, Musical, and Adventure have the highest average net profit over 200 million each.
-(image)
+![Top Genres](Images/Question4_popgenres_netprof.png)
 Answer to Question 4: Choose a combination that is sensible and the most profitable i.e. Animation, Adventure, and Sci-Fi
 
 ## Further Study
